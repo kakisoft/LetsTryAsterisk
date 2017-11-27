@@ -1,5 +1,5 @@
 #Theme Setting(black, moon, night, beige, sky, white が設定可)
-theme : night
+#theme : night
 
 #Background Setting
 #background : assets/bg.png
@@ -24,8 +24,7 @@ footnote :  "© 2017 kakisoft"
 #transition : fade
 
 #Vertical Center Setting（falseで上詰め）
-vertical-center : false
-horizontal-center : false
+#vertical-center : false
 
 #Auto Slide Setting(1000で1秒)
 #autoslide : 5000
