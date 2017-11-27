@@ -17,89 +17,48 @@
 　  
 **趣味**：リアル脱出ゲーム
 ---
+福岡と広島に、Androidタブレットを使った、  
+ピッキング（出荷）と棚卸のシステムを導入しました。
+---
+「これ（Android端末）使って、通話もできない？」
+---
+調べてみた。  
+何かできそうな気がする。
+---
+### IP PBX<br>
+（Intenet Protocol Private Branch eXchange）
+<br>
+TCP/IPネットワーク上で音声通話（VoIP）を利用する際、IP電話機の回線交換を行う機器やソフト。  
+IP回線交換装置とも。
+---
+### PBXには２種類ある
+ * ハードウェアタイプ
+　　　専用の機器を使用する
+ * ソフトウェアタイプ
+　　　サーバにインストールして使用する
 
-「GitPitch」というサービスを使っています。
+*→今回必要なのは、ソフトウェアタイプ。*
 ---
-必要なのは、GitHubアカウントのみ。
----
-作り方
----
-リポジトリを作成  
-<img src="assets/CreateNewRepository.png">
----
-リポジトリ名がスライドのURLとなります。  
-<img src="assets/EditRepositoryName.png"/>
----
-「Create New File」を選択  　
-<img src="assets/CreateNewFile.png"/>
----
-PITCHME.md  
-というファイルを作成します。  
-<img src="assets/AddPitchme.png"/>  
----
-内容はマークダウンで記述します。
----
-一方で、GitPitch独自の記法もあります。
----
-\-\-\-
-で、スライドが切り替わります。
----
-### Fragment Slides
-- 要素の先頭を「\-」で記述し |
-- 末尾に「\|」を記述すると |
-- １行ごとの表示単位で     |
-- アニメーションができます。|
----
-### Code Presenting
-コードブロックのハイライトができます。
-```js
-console.log("@[1]と書くと、1行目がハイライトされます。");
-console.log("@[2-4]といったように");
-console.log("複数行選択も");
-console.log("可能です。");
-console.log("eof");
-```
-@[1](ハイライト行の解説も記述できます。)
-@[2-4](コメントは[]の右に記述します。)
----
+**Asterisk（アスタリスク）**というオープンソースのツールを使用。
+内線電話を実現できるそうな。
 
-　  
-\-\-\-?gist=kakisoft/92d3fc38dae2eadc97f4a2881fbfc695
-　  
-と記述することで、Gistも表示可能です。
+http://www.asterisk.org/
+<img src="assets/Asterisk_overview.png"/>
+サーバにて使用します。Cent OSを使用しました。
 ---
-記述が終わったら、  
-Commit new fileで完了です。  
-<img src="assets/CommitNewFile.png"/>
+クライアント（今回は Android）には、SIPクライアントツールが必要となります。  
+（「ソフトフォン」とも言います。）
+<br>
+以下の３つを試しました。
+ * Zoiper IAX SIP VOIP Softphone
+ * CSipSimple
+ * MizuDroid SIP Softphone
+手軽にサクッと使う分には、MizuDroidが良さげです。
 ---
-URLは、   
-　  
-https://gitpitch.com/<ユーザ名>/<リポジトリ名>  
-　   
-となります。
+基本、Qiitaの記事を参考にしました。
 ---
-ブランチを切って  
-　  
-https://gitpitch.com/<ユーザ名>/<リポジトリ名>/<ブランチ名>  
-　  
-とする事もできます。
+導入の予定は・・・
 ---
-スライド再生中に```F```を押すと、  
-フルスクリーンモードに切り替わります。  
-　  
-※F1キーではありません
+特にありません。
 ---
-スライド再生中に```O```を押すと、  
-オーバービューモードに切り替わります。  
-　  
-※「オー」です。  
----
-各種操作の説明は、スライド再生中に  
-```?```を押すと確認可能です。  
----
-下のメニューより、  
-PDFファイルにする事も可能です。
----
-次のスライドでは、  
-設定ファイルについて説明しています。  
-https://gitpitch.com/kakisoft/HowToUseGitPitch2
+おわり
