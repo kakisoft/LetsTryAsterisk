@@ -1,5 +1,5 @@
 # LetsTryAsterisk
-【倉庫内無線LAN環境】Android端末で無料通話をしてみよう  
+【倉庫内無線LAN環境】Android端末で無料通話をしてみよう  
 というタイトルのスライドです。  
 https://gitpitch.com/kakisoft/LetsTryAsterisk  
 <br>
