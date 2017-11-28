@@ -61,6 +61,7 @@ http://www.asterisk.org/
 手軽にサクッと使う分には、MizuDroidが良さげです。
 ---
 基本、Qiitaの記事を参考にし、うまく行かなかった部分は公式マニュアルを参考にするやり方でOKでした。  
+<br>
 この記事は特に参考になりました。  
 https://qiita.com/ganezasan/items/05b16a2254f066f6bbdc
 ---
