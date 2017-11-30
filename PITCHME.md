@@ -71,7 +71,7 @@ http://www.asterisk.org/
 基本、Qiitaの記事を参考にし、うまく行かなかった部分は公式マニュアルを参考にする方法でOKでした。  
 <br> 
 この記事は特に参考になりました。  
-『AWS上にAsteriskサーバ構築して内線電話環境つくってみよう』  
+【AWS上にAsteriskサーバ構築して内線電話環境つくってみよう】  
 https://qiita.com/ganezasan/items/05b16a2254f066f6bbdc
 ---
 Android端末同士の通話OK！  
