@@ -6,8 +6,3 @@ https://gitpitch.com/kakisoft/LetsTryAsterisk
 chibi_developer様主催のイベント  
 『俺の話を聞け！！LT大会 #6』にてLTさせて頂きました。  
 https://cdg.connpass.com/event/70899/
-
-
-
-
-Unable to connect to remote asterisk (does /var/run/asterisk/asterisk.ctl exist?)
